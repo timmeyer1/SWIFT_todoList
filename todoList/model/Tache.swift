@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Tache: Identifiable {
+    let id = UUID()
+    var titre: String
+    var estFaite: Bool
+}
